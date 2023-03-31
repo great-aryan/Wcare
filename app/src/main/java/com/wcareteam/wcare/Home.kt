@@ -38,7 +38,7 @@ class Home : Fragment() {
             val handler = Handler()
             handler.postDelayed(object : Runnable {
                 override fun run() {
-                                        val endIndex = (i + 2).coerceAtMost(words.size) // End index of the current batch of words
+                    val endIndex = (i + 2).coerceAtMost(words.size) // End index of the current batch of words
                     val word = words.subList(i, endIndex).joinToString(" ") // Join the current batch of words into a single string
                     textView.text = textView.text.toString() + " " + word
                     i = endIndex
@@ -59,7 +59,6 @@ class Home : Fragment() {
         val clickAnimation = AnimationUtils.loadAnimation(context, R.anim.button_click_animation)
         val textToType =  resources.getString(R.string.console_text)
         val textToType2 =  resources.getString(R.string.console_text2)
-        val handler = Handler(Looper.getMainLooper())
 
         lottieswitch.alpha = 0.0F
 
@@ -87,8 +86,7 @@ class Home : Fragment() {
                 },300)
                 animateText(consoletext, textToType)
 
-                val handler = Handler()
-                handler.postDelayed({
+                lottieswitch.postDelayed({
                     Toast.makeText(context, "Alert Send, Don't Panic!", Toast.LENGTH_SHORT).show()
                 }, 1500)
 
