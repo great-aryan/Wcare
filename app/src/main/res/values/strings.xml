@@ -41,4 +41,13 @@
 
     </string>
 
+    //Contacts
+    <string name="Contact_number1">+917599954647</string>
+    <string name="Contact_number2">+918178788527</string>
+    <string name="Contact_number3">+917599954647</string>
+    <string name="Contact_number4">+917599954647</string>
+    <string name="Contact_number5">+917599954647</string>
+
+    <string name="urgent_message">I am in an emergency. Location while sending this : https://www.google.com/maps/search/28.421059,+77.520970</string>
+
 </resources>

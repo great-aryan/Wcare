@@ -67,9 +67,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Call NOw"
-            android:textColor="@color/grey"
-            android:enabled="false"
+            android:background="@drawable/round_bg"
+            android:text="Call Now"
+            android:textColor="@color/white"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
 
@@ -108,7 +108,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+919412121212"
+                android:text="+918178788527"
                 android:textSize="14sp"
                 android:textColor="@color/grey"/>
 
@@ -122,13 +122,14 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/contact_button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
             android:text="Call Now"
-            android:textColor="@color/grey"
-            android:enabled="false"
+            android:textColor="@color/white"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
 
@@ -180,12 +181,14 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/contact_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
             android:text="Call Now"
-            android:textColor="@color/grey"
+            android:textColor="@color/white"
             android:enabled="false"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
@@ -238,12 +241,13 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/contact_button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
             android:text="Call Now"
-            android:textColor="@color/grey"
+            android:textColor="@color/white"
             android:enabled="false"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
@@ -296,12 +300,14 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/contact_button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
             android:text="Call Now"
-            android:textColor="@color/grey"
+            android:textColor="@color/white"
             android:enabled="false"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
