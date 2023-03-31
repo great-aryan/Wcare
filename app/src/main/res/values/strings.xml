@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Wcare</string>
+    // all
+    <string name="todo">TODO</string>
+
+    // Splash screen
+    <string name="splashscreen_gif">WcareLOGO</string>
+    <string name="welcome">Welcome to Wcare Emergency App</string>
+    <string name="tagline">In the Era of Who Cares, We care.</string>
+    <string name="floatlogin">floatlogin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //Setings
+    <string name="user_name">User Name</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="profile">Profile</string>
+    <string name="fetching_data">fetching data…</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="backbtn">backbtn</string>
+    <string name="emergency_button">Emergency Button</string>
+    <string name="console_text">Emergency contact found > %status_contact% \n
+        Sending live location > %status_location% \n
+        Sending SOS email > %status_email% \n
+        Sending help SMS > %status_sms% \n
+
+        Call Control room = 100 \n
+        Call Distress  = 112 \n
+
+    </string>
+    <string name="console_text2"> SENDING ALERT AGAIN !!! \n
+        Emergency contact found > %status_contact% \n
+        Sending live location > %status_location% \n
+        Sending SOS email > %status_email% \n
+        Sending help SMS > %status_sms% \n
+
+        Call Control room = 100 \n
+        Call Distress  = 112 \n
+
+    </string>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/todo"
+        android:elevation="1dp"
+        android:scaleType="matrix"
+        android:src="@drawable/maps2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/linearlayouthome"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:elevation="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/lottieSwitchOff"
+        android:layout_width="78dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:background="@drawable/warn13">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieSwitch"
+                android:layout_width="90dp"
+                android:layout_height="85dp"
+                app:lottie_rawRes="@raw/warning3"/>
+    </LinearLayout>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="50dp"
+        android:elevation="5dp"
+        android:background="@drawable/round_bg"
+        android:textColor="@color/black"
+        android:text="Tap on the button to alert"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:visibility="visible"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/red_bigbtn" />
+    <ImageButton
+        android:id="@+id/red_bigbtn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:foreground="@drawable/warn15"
+        android:background="@drawable/warn15"
+        android:elevation="2dp"
+        android:contentDescription="@string/emergency_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/console_text"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="30dp"
+        android:elevation="5dp"
+        android:background="@drawable/round_bg4"
+        android:textColor="@color/red_500"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:lineSpacingExtra="14dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/red_bigbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
