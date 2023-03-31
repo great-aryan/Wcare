@@ -31,13 +31,11 @@
 
     </string>
     <string name="console_text2"> SENDING ALERT AGAIN !!! \n
-        Emergency contact found > %status_contact% \n
-        Sending live location > %status_location% \n
-        Sending SOS email > %status_email% \n
-        Sending help SMS > %status_sms% \n
+        Emergency contact found > Found ! \n
+        Sending live location > Sent ! \n
+        Sending SOS email > Sent ! \n
+        Sending help SMS > Sent !\n
 
-        Call Control room = 100 \n
-        Call Distress  = 112 \n
 
     </string>
 
