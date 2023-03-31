@@ -1,16 +1,16 @@
 package com.wcareteam.wcare
 
-import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.airbnb.lottie.LottieAnimationView
 
 
@@ -87,6 +87,10 @@ class Home : Fragment() {
                 },300)
                 animateText(consoletext, textToType)
 
+                val handler = Handler()
+                handler.postDelayed({
+                    Toast.makeText(context, "Alert Send, Don't Panic!", Toast.LENGTH_SHORT).show()
+                }, 1500)
 
             } else {
                 if (switchOn) {
